@@ -29,7 +29,8 @@ module.exports = {
       },
     ],
   },
-  plugins: [new HtmlWebpackPlugin({ template: "./static/index.html",favicon:"./static/favicon.ico" })],
+  watch:true,
+  plugins: [new HtmlWebpackPlugin({ template: "./index.html" })],
   resolve: {
     extensions: ["", ".js", ".jsx"],
   },

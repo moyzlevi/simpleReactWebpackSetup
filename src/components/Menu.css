@@ -1,17 +1,21 @@
 :root{
-    --fontColor: #797590;
+    --fontColor: #ffffff;
 }
 
 li{
     list-style-type: none;
-    font-size: 3vh;
-   font-family: 'Jomhuria', cursive;;
+    font-size: 2.6vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 
 }
 
 nav{
     width: 100vw;
-    background-color: #37393A;
+    background-color: #5c5997;
+    -webkit-box-shadow: 0px 0.5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0.5px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0.5px 5px 0px rgba(0,0,0,0.75);
 }
 
 ul{
