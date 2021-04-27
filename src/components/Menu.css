@@ -1,0 +1,33 @@
+:root{
+    --fontColor: #797590;
+}
+
+li{
+    list-style-type: none;
+    font-size: 3vh;
+   font-family: 'Jomhuria', cursive;;
+
+}
+
+nav{
+    width: 100vw;
+    background-color: #37393A;
+}
+
+ul{
+    display: flex;
+}
+
+a:hover{
+    background-color: rgba(0, 0, 0, 0.164);
+}
+
+a{
+    text-decoration: none;
+    color: var( --fontColor);
+    padding: 0 2rem;
+    
+}
+a:visited{
+    color:var( --fontColor);
+}

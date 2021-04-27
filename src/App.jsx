@@ -1,9 +1,14 @@
 import React from "react"
+import './App.css'
+
+
+import Card from './components/Card'
+import Menu from './components/Menu'
 
 function App() {
-    return (<div>
-        <h2>Welcome to React App</h2>
-        <h3>Date : {new Date().toDateString()}</h3>
+    return (<div className="container">
+        <Menu/>
+        <Card/>
     </div>)
 }
 

@@ -20,7 +20,7 @@
   "version": "1.0.0",
   "main": "webpack.config.js",
   "scripts": {
-    "serve": "webpack serve --mode development",
+    "serve": "webpack serve --mode development --inline --hot",
     "build": "webpack --mode production"
   },
   "keywords": [],
