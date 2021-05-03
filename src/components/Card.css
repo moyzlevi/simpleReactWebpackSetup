@@ -4,5 +4,44 @@
     margin-top: 70px;
     width: 65vw;
     border-radius: 10px;
+    padding: 1px;
     
+}
+
+.card-header{
+    background-color: rgb(49, 43, 43);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    color: rgba(216, 210, 189, 0.568);
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  }
+
+.gridbox.content{
+    display: grid;
+    height: 96.2%;
+    background-color: crimson;
+    border-radius: 10px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 10px;
+}
+
+.photo{
+    grid-column: 2/span 4;
+    background-color: blue;
+}
+
+.main-text{
+    grid-column: 6/span 12;
+    background-color: yellow;
 }

@@ -3,7 +3,7 @@ import './Menu.css'
 
 export default ()=>{
     return(
-        <nav>
+        <nav className="noselect">
             <ul>
                 <li><a href="https://github.com/moyzlevi" target="_blank">Github</a></li>
                 <li><a href="https://twitter.com/MoysesZalewski" target="_blank">Twitter</a></li>
