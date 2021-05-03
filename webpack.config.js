@@ -30,6 +30,7 @@ module.exports = {
     ],
   },
   plugins: [new HtmlWebpackPlugin({ template: "./static/index.html", favicon:"./static/favicon.ico" })],
+
   resolve: {
     extensions: ["", ".js", ".jsx"],
   },
